@@ -25,11 +25,11 @@ export default {
       colors: {
         main: "#E22380",
         "app-blue": "#1273e4",
+        footer: "#403F3F",
       },
       backgroundImage: {
         home5: 'url("/src/assets/home/section5.jpg")',
         login: 'url("/src/assets/sign/login.jpg")',
-        home1: 'url("/src/assets/home/section1.jpg")',
       },
       height: {
         "screen-80": "60vh",

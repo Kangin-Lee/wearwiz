@@ -36,3 +36,15 @@
         margin-left: 3px;
     }
 }
+
+.footer-brands{
+    font-size: x-large;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 100%;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        background-color: #1f1f1f;
+        transition: 0.2s ease-in-out;
+    }
+}

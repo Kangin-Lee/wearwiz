@@ -9,6 +9,7 @@ import 시티보이 from "../../../assets/style/시티보이.webp";
 import 긱시크 from "../../../assets/style/긱시크.webp";
 import 고프코어 from "../../../assets/style/고프코어.webp";
 import 프레피 from "../../../assets/style/프레피.webp";
+import { BsFillHandThumbsUpFill } from "react-icons/bs";
 
 const responsive = {
   superLargeDesktop: {
@@ -34,46 +35,51 @@ const SectionThree: React.FC = () => {
   return (
     <div>
       <div className="container py-10">
-        <div className="font-bold text-lg">추천 스타일</div>
+        <div className="font-bold text-lg">
+          <p className="flex items-center dark:text-white">
+            <BsFillHandThumbsUpFill className="text-yellow-300 text-xl mr-1" />
+            추천 스타일
+          </p>
+        </div>
         <Carousel responsive={responsive}>
           <div className="style-card">
             <img src={캐주얼} />
-            <span>캐주얼</span>
+            <span className="dark:text-white">캐주얼</span>
             <span>Casual</span>
           </div>
           <div className="style-card">
             <img src={미니멀} />
-            <span>미니멀</span>
+            <span className="dark:text-white">미니멀</span>
             <span>Minimal</span>
           </div>
           <div className="style-card">
             <img src={스트릿} />
-            <span>스트릿</span>
+            <span className="dark:text-white">스트릿</span>
             <span>Street</span>
           </div>
           <div className="style-card">
             <img src={비즈니스캐주얼} />
-            <span>비즈니스 캐주얼</span>
+            <span className="dark:text-white">비즈니스 캐주얼</span>
             <span>Business Casual</span>
           </div>
           <div className="style-card">
             <img src={긱시크} />
-            <span>긱시크</span>
+            <span className="dark:text-white">긱시크</span>
             <span>Geek Chic</span>
           </div>
           <div className="style-card">
             <img src={시티보이} />
-            <span>시티보이</span>
+            <span className="dark:text-white">시티보이</span>
             <span>City Boy</span>
           </div>
           <div className="style-card">
             <img src={고프코어} />
-            <span>고프코어</span>
+            <span className="dark:text-white">고프코어</span>
             <span>Gorpcore</span>
           </div>
           <div className="style-card">
             <img src={프레피} />
-            <span>프레피</span>
+            <span className="dark:text-white">프레피</span>
             <span>Preppy</span>
           </div>
         </Carousel>

@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import kakao from "../../assets/logo/kakao.png";
 import google from "../../assets/logo/google.png";
+import { emailRegex, passwordRegex } from "../../common/regex";
 
 interface InputData {
   email: string;
@@ -15,7 +16,6 @@ const Login: React.FC = () => {
     register,
     formState: { errors },
     handleSubmit,
-
   } = useForm<InputData>({
     mode: "onSubmit",
     defaultValues: {},
@@ -51,20 +51,25 @@ const Login: React.FC = () => {
               type="text"
               id="email"
               placeholder="이메일을 입력하세요."
-              {...register("email",{
+              {...register("email", {
                 pattern: {
-                  value:
-                    /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i,
+                  value: emailRegex,
                   message: "이메일을 잘못 입력하셨습니다.",
                 },
               })}
             />
-            {errors.email ? <p className="text-red-600 text-sm text-end">{errors.email.message}</p> : <p className="text-transparent text-sm">정상적인 이메일 형식입니다.</p>}
+            {errors.email ? (
+              <p className="text-red-600 text-sm text-end">
+                {errors.email.message}
+              </p>
+            ) : (
+              <p className="text-transparent text-sm">
+                정상적인 이메일 형식입니다.
+              </p>
+            )}
 
             {/* 비밀번호 */}
-            <label htmlFor="password">
-              비밀번호
-            </label>
+            <label htmlFor="password">비밀번호</label>
             <input
               className="input"
               type="password"
@@ -72,13 +77,20 @@ const Login: React.FC = () => {
               placeholder="비밀번호를 입력하세요."
               {...register("password", {
                 pattern: {
-                  value:
-                    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+                  value: passwordRegex,
                   message: "비밀번호를 잘못 입력하셨습니다.",
                 },
               })}
             />
-            {errors.password ? <p className="text-red-600 text-sm text-end">{errors.password.message}</p> : <p className="text-transparent text-sm">정상적인 비밀번호 형식입니다.</p>}
+            {errors.password ? (
+              <p className="text-red-600 text-sm text-end">
+                {errors.password.message}
+              </p>
+            ) : (
+              <p className="text-transparent text-sm">
+                정상적인 비밀번호 형식입니다.
+              </p>
+            )}
           </section>
 
           <button className="bg-main mt-1 text-white font-bold py-2 w-full rounded shadow-md transition-all duration-300 ease-in-out transform hover:shadow-none hover:translate-y-1 hover:bg-pink-700">

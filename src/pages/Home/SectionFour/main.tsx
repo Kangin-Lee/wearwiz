@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import WizCard from "../../../components/WizCard/main";
 import { Link } from "react-router-dom";
-
+import { BsFire } from "react-icons/bs";
 
 const responsive = {
   superLargeDesktop: {
@@ -29,20 +29,24 @@ const SectionFour: React.FC = () => {
     <div>
       <div className="container py-10">
         <div className="font-bold flex items-center justify-between">
-          <p className="text-lg">이번 주 HOT 위즈</p>
-          <Link to='/wiz' className="text-app-blue underline text-sm">더 많은 위즈 보기</Link>
+          <p className="text-lg items-center flex dark:text-white">
+            <BsFire className="text-xl mr-1 text-red-500" /> 이번 주 HOT 위즈
+          </p>
+          <Link to="/wiz" className="text-app-blue underline text-sm">
+            더 많은 위즈 보기
+          </Link>
         </div>
         <Carousel responsive={responsive}>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
-          <WizCard/>
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
+          <WizCard />
         </Carousel>
       </div>
     </div>

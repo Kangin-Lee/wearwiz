@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import WizFindTab from "../../../components/WizFindTab/main";
 import { Fade } from "react-awesome-reveal";
 
+const backgrounds = [
+  'url("/src/assets/home/section1-2.jpg")',
+  'url("/src/assets/home/section1.jpg")',
+  'url("/src/assets/home/section1-3.jpg")',
+  'url("/src/assets/home/section1-4.jpg")',
+];
+
+const getRandomBackground = () => {
+  const randomIndex = Math.floor(Math.random() * backgrounds.length);
+  return backgrounds[randomIndex];
+};
+
 const SectionOne: React.FC = () => {
+  const [background, setBackground] = useState("");
+
+  useEffect(() => {
+    setBackground(getRandomBackground());
+  }, []);
+
   return (
-    <section className="bg-home1 bg-fixed h-128 bg-cover bg-no-repeat bg-center">
+    <section
+      className="bg-fixed h-128 bg-cover bg-no-repeat bg-center"
+      style={{ backgroundImage: background }}
+    >
       <div className="container font-kr">
         <div className="pt-48 text-4xl text-white font-bold">
           <Fade delay={300} duration={1500}>

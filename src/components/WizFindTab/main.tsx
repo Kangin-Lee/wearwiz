@@ -10,7 +10,7 @@ const WizFindTab: React.FC = () => {
 
   return (
     <div>
-      <Tabs className="bg-white rounded-3xl shadow-md p-3">
+      <Tabs className="bg-white rounded-3xl shadow-md p-3 h-48 dark:bg-zinc-700 dark:text-white">
         <TabList className="flex cursor-pointer font-bold border-b-2">
           <Tab
             onClick={() => handleFindClick("wizFind")}
@@ -50,38 +50,38 @@ const WizFindTab: React.FC = () => {
 
         {/* 상세 조건을 걸어 위즈 검색 */}
         <TabPanel>
-          <div className="flex items-center justify-center">
-          <div>
-            <p>성별</p>
-            <input
-              className="input w-full"
-              placeholder="성별을 선택해 주세요."
-            />
-          </div>
-          <div>
-            <p>거주 지역</p>
-            <input
-              className="input w-full"
-              placeholder="거주하는 지역을 선택해 주세요."
-            />
-          </div>
-          <div>
-            <p>대면·비대면 여부</p>
-            <input
-              className="input w-full"
-              placeholder="대면·비대면 여부를 선택해 주세요."
-            />
-          </div>
-          <div>
-            <p>스타일</p>
-            <input
-              className="input w-full"
-              placeholder="원하는 스타일을 선택해 주세요."
-            />
-          </div>
-          <button className="w-20 bg-app-blue text-white ml-3 py-1 px-4 text-lg rounded-md">
-            검색
-          </button>
+          <div className="flex items-center justify-between">
+            <div>
+              <p>성별</p>
+              <input
+                className="input w-full"
+                placeholder="성별을 선택해 주세요."
+              />
+            </div>
+            <div>
+              <p>거주 지역</p>
+              <input
+                className="input w-full"
+                placeholder="거주하는 지역을 선택해 주세요."
+              />
+            </div>
+            <div>
+              <p>대면·비대면 여부</p>
+              <input
+                className="input w-full"
+                placeholder="대면·비대면 여부를 선택해 주세요."
+              />
+            </div>
+            <div>
+              <p>스타일</p>
+              <input
+                className="input w-full"
+                placeholder="원하는 스타일을 선택해 주세요."
+              />
+            </div>
+            <button className="w-20 bg-app-blue text-white ml-3 py-1 px-4 text-lg rounded-md">
+              검색
+            </button>
           </div>
         </TabPanel>
       </Tabs>

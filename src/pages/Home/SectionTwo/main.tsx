@@ -22,7 +22,7 @@ const SectionTwo: React.FC = () => {
             로그인/회원가입
           </button>
         </div>
-        <img width={150} className="mr-5" src={gift}/>
+        <img width={150} className="mr-5" src={gift} />
       </div>
     </div>
   );
