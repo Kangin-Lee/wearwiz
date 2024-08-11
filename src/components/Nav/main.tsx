@@ -10,7 +10,7 @@ const Nav: React.FC = () => {
     navigate('/login');
   }
   return (
-    <div className="sticky top-0 z-30 shadow-md dark:bg-zinc-800">
+    <div className="sticky top-0 z-30 shadow-md dark:bg-zinc-800 bg-white">
       <nav className="container flex justify-between py-5 ">
         {/* 로고 */}
         <section className="flex items-center">

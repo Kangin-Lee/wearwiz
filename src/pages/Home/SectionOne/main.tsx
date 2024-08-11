@@ -3,10 +3,10 @@ import WizFindTab from "../../../components/WizFindTab/main";
 import { Fade } from "react-awesome-reveal";
 
 const backgrounds = [
-  'url("/src/assets/home/section1-2.jpg")',
-  'url("/src/assets/home/section1.jpg")',
-  'url("/src/assets/home/section1-3.jpg")',
-  'url("/src/assets/home/section1-4.jpg")',
+  "/src/assets/home/section1-2.jpg",
+  "/src/assets/home/section1.jpg",
+  "/src/assets/home/section1-3.jpg",
+  "/src/assets/home/section1-4.jpg",
 ];
 
 const getRandomBackground = () => {
@@ -24,7 +24,7 @@ const SectionOne: React.FC = () => {
   return (
     <section
       className="bg-fixed h-128 bg-cover bg-no-repeat bg-center"
-      style={{ backgroundImage: background }}
+      style={{ backgroundImage: `url(${background})` }}
     >
       <div className="container font-kr">
         <div className="pt-48 text-4xl text-white font-bold">
