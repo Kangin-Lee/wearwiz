@@ -1,0 +1,304 @@
+{
+  "trade": [
+    {
+      "id": 1,
+      "title": "후드티 L 사이즈 싸게 팝니다~",
+      "price": "23,000",
+      "heart": 54,
+      "createDate": "2024-06-18",
+      "user": "김이박최",
+      "location": "서울특별시 강남구",
+      "img": "https://image.msscdn.net/data/estimate/1615829_0/gallery_6432b75f2d3fa.jpg.view"
+    },
+    {
+      "id": 2,
+      "title": "정가 80000원짜리 스투시 반팔 팝니다",
+      "price": "40,000",
+      "heart": 54,
+      "createDate": "2024-05-28",
+      "user": "티팔이",
+      "location": "서울특별시 강서구",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202404%2F029fd34cbf386f98d0b019134f369114b5fbb4d1866f72504f6f9b72dfd608e7_0.webp%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 3,
+      "title": "구찌 반팔 싸게 팝니다.",
+      "price": "19,000",
+      "heart": 54,
+      "createDate": "2024-7-26",
+      "user": "초롱이",
+      "location": "대전광역시 유성구",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202406%2F052e674fd5c862406b14a40102da03af9d78ea92ca14e476d791e65f966c79af_0.webp%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 4,
+      "title": "별로 안 입은 바지 처리합니다.",
+      "price": "25,000",
+      "heart": 24,
+      "createDate": "2024-06-18",
+      "user": "돈되는것만",
+      "location": "대전광역시 서구",
+      "img": "https://image.msscdn.net/data/estimate/858911_0/gallery_5e4e2d9af3ea5.jpg.view"
+    },
+    {
+      "id": 5,
+      "title": "나이키 조던1 싸게 팝니다.",
+      "price": "30,000",
+      "heart": 3,
+      "createDate": "2024-02-05",
+      "user": "중고거래왕",
+      "location": "대전광역시 대덕구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjhfMTM0%2FMDAxNjk1ODU0MTM5NTM0.55DtrQAFXTIFphRATa3H-wzyVoFIF7AZk3UEGKoBTsUg.qBntC1QG9Z83LaqQ5IQDV2-yGcjCYIMfahfcb46sc9Ig.PNG.wlgnszz16%2Fimage.png&type=sc960_832"
+    },
+    {
+      "id": 6,
+      "title": "손이 잘 안가 싸게 팝니다.",
+      "price": "12,000",
+      "heart": 4,
+      "createDate": "2024-01-11",
+      "user": "하이요",
+      "location": "대구광역시 달서구",
+      "img": "https://image.msscdn.net/data/estimate/1420730_0/gallery_630ba223405d0.jpg.view"
+    },
+    {
+      "id": 7,
+      "title": "수원 사시는 분들 싸게 팔아요",
+      "price": "25,000",
+      "heart": 1,
+      "createDate": "2024-08-18",
+      "user": "거래해요",
+      "location": "경기도 수원시",
+      "img": "https://image.msscdn.net/data/estimate/1420730_0/gallery_5f2e8479a252f.jpg.view"
+    },
+    {
+      "id": 8,
+      "title": "시중보다 싸게 메이커 팔아요.",
+      "price": "10,000",
+      "heart": 2,
+      "createDate": "2024-06-02",
+      "user": "티팔이소녀",
+      "location": "경기도 화성시",
+      "img": "https://image.msscdn.net/data/estimate/1841764_0/gallery_6505dd077d30c.jpg.view"
+    },
+    {
+      "id": 9,
+      "title": "반팔 급처합니다.",
+      "price": "59,000",
+      "heart": 33,
+      "createDate": "2024-07-10",
+      "user": "네고가능인",
+      "location": "경기도 이천시",
+      "img": "https://image.msscdn.net/data/estimate/1779737_0/gallery_65e6e409bdd0e.jpg.view"
+    },
+    {
+      "id": 10,
+      "title": "코트가 저한테 너무 길어 팝니다.",
+      "price": "129,000",
+      "heart": 6,
+      "createDate": "2024-06-22",
+      "user": "비싼거만팔음",
+      "location": "강원도 원주시",
+      "img": "https://image.msscdn.net/data/estimate/1115974_0/gallery_5f45e2dd494e7.jpg.view"
+    },
+    {
+      "id": 11,
+      "title": "제주분들 올백포스 팔아요~",
+      "price": "50,000",
+      "heart": 54,
+      "createDate": "2024-05-15",
+      "user": "매너인",
+      "location": "제주도 제주시",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20141004_14%2Fchrisyang20_1412426913525sr70q_JPEG%2FNa1412426872145.jpg&type=sc960_832"
+    },
+    {
+      "id": 12,
+      "title": "아디다스 슈퍼스타 별로 안 신었어요~!",
+      "price": "111,000",
+      "heart": 2,
+      "createDate": "2024-05-08",
+      "user": "우정",
+      "location": "서울특별시 용산구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA2MDVfMTY3%2FMDAxNjg1OTI2Nzc1NjQ3.t2IKMnABLZqseVZublUHH2duB-Pyt490bRfw3EfJrvQg.ghLgYlx4hC7iYe41zbeaQJkuVI4J-xaziQk4Xyrg1-og.JPEG.simjae0013%2FIMG_2380.JPG&type=sc960_832"
+    },
+    {
+      "id": 13,
+      "title": "맨투맨 안 입어서 싸게 내놓습니다.",
+      "price": "72,000",
+      "heart": 0,
+      "createDate": "2024-09-09",
+      "user": "대전사람",
+      "location": "서울특별시 서대문구",
+      "img": "https://image.msscdn.net/data/estimate/1557508_0/gallery_5f992b6f3b2bd.jpg.view"
+    },
+    {
+      "id": 14,
+      "title": "아크네 목도리 싸게 팝니다@@@@",
+      "price": "64,000",
+      "heart": 4,
+      "createDate": "2024-03-11",
+      "user": "서울사람인데요",
+      "location": "서울특별시 강남구",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202402%2Ff7ba5036ca254ee49fd8557b7db0482d271a5d59b21327d55b9df5c70f4a2b7f.jpg%3Fq%3D95%26s%3D1440x1440%26t%3Dinside%26f%3Dwebp&type=sc960_832"
+    },
+    {
+      "id": 15,
+      "title": "제로 후드티 팔아요",
+      "price": "42,000",
+      "heart": 1,
+      "createDate": "2024-06-18",
+      "user": "닉넴뭘로함",
+      "location": "충청북도 청주시",
+      "img": "https://image.msscdn.net/data/estimate/1615829_0/gallery_6432b75f2d3fa.jpg.view"
+    },
+    {
+      "id": 16,
+      "title": "디네뎃 바람박이 팔아요",
+      "price": "80,000",
+      "heart": 0,
+      "createDate": "2024-06-30",
+      "user": "이제생각도",
+      "location": "충청남도 천안시",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202107%2F9c6aad5981e95a9375c5b58599aae8c7aab52367af8e19554b4263e81435973c.webp%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 17,
+      "title": "노스페이스 패딩 급처합니다.",
+      "price": "99,000",
+      "heart": 128,
+      "createDate": "2024-02-01",
+      "user": "안나는데",
+      "location": "충청북도 옥천군",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202301%2FEE97CA4121B2D3A57725B3CE6BAD3DCE06960CFA23653F0F5A6C7477DA75A073.jpg%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 18,
+      "title": "호카 본디8 시세보다 싸게 팝니다.",
+      "price": "125,000",
+      "heart": 11,
+      "createDate": "2024-08-01",
+      "user": "신발쟁이",
+      "location": "대전광역시 동구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMjJfMjA3%2FMDAxNjY5MTA2Nzg4ODk0.w5vj1I0aiSl9-OyDQy3oCNIJD7_Q5yH9wN0q8578kCAg.2zm8r56tFWIU1JOdYUfIPCsq0phDnKn08iojzbUvlBMg.JPEG.ssungim%2FIMG_8925.jpg&type=sc960_832"
+    },
+    {
+      "id": 19,
+      "title": "데님자켓 내놓습니다.",
+      "price": "80,000",
+      "heart": 2,
+      "createDate": "2024-07-30",
+      "user": "얼마나",
+      "location": "울산광역시 남구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEwMTVfODkg%2FMDAxNjk3MzMyMDUxNDMy.a_p7VjLU7gfepMzZfPw_e3PAGtDNSEXMvg5YqcXzdW0g.RSpT1D7PR_j4MBSABb7ieY_NTGHi6XEEYrMf7xLugZog.JPEG.kyun0580%2FIMG_9556.JPG&type=sc960_832"
+    },
+    {
+      "id": 20,
+      "title": "슈프림 티셔츠 XL사이즈 팝니다",
+      "price": "30,000",
+      "heart": 54,
+      "createDate": "2024-04-04",
+      "user": "궁금하면500원",
+      "location": "대전광역시 유성구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxOTA0MjRfMTM4%2FMDAxNTU2MDkyMjY1Njc0.a2iQn3KJ1ReU-Tb2X9lx2jX6lBOoUW1Z2qY9RpA_yrkg.--sCrCyMcUyzvJIbKj6v06mSSA0-AOOJatAfCvHJvaIg.JPEG.wjdwls0869%2Fnv_1556092263303.jpg&type=sc960_832"
+    },
+    {
+      "id": 21,
+      "title": "후드티 L 사이즈 싸게 팝니다~",
+      "price": "23,000",
+      "heart": 0,
+      "createDate": "2024-05-18",
+      "user": "김이박최",
+      "location": "서울특별시 강남구",
+      "img": "https://image.msscdn.net/data/estimate/1615829_0/gallery_6432b75f2d3fa.jpg.view"
+    },
+    {
+      "id": 22,
+      "title": "정가 80000원짜리 스투시 반팔 팝니다",
+      "price": "40,000",
+      "heart": 0,
+      "createDate": "2024-07-18",
+      "user": "티팔이",
+      "location": "서울특별시 강서구",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202404%2F029fd34cbf386f98d0b019134f369114b5fbb4d1866f72504f6f9b72dfd608e7_0.webp%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 23,
+      "title": "디네뎃 바람박이 팔아요",
+      "price": "80,000",
+      "heart": 1,
+      "createDate": "2024-06-15",
+      "user": "이제생각도",
+      "location": "충청남도 천안시",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202107%2F9c6aad5981e95a9375c5b58599aae8c7aab52367af8e19554b4263e81435973c.webp%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 24,
+      "title": "노스페이스 패딩 급처합니다.",
+      "price": "99,000",
+      "heart": 14,
+      "createDate": "2024-01-18",
+      "user": "안나는데",
+      "location": "충청북도 옥천군",
+      "img": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fdnvefa72aowie.cloudfront.net%2Forigin%2Farticle%2F202301%2FEE97CA4121B2D3A57725B3CE6BAD3DCE06960CFA23653F0F5A6C7477DA75A073.jpg%3Ff%3Dwebp%26q%3D95%26s%3D1440x1440%26t%3Dinside&type=sc960_832"
+    },
+    {
+      "id": 25,
+      "title": "호카 본디8 시세보다 싸게 팝니다.",
+      "price": "125,000",
+      "heart": 7,
+      "createDate": "2024-06-16",
+      "user": "신발쟁이",
+      "location": "대전광역시 동구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMjJfMjA3%2FMDAxNjY5MTA2Nzg4ODk0.w5vj1I0aiSl9-OyDQy3oCNIJD7_Q5yH9wN0q8578kCAg.2zm8r56tFWIU1JOdYUfIPCsq0phDnKn08iojzbUvlBMg.JPEG.ssungim%2FIMG_8925.jpg&type=sc960_832"
+    },
+    {
+      "id": 26,
+      "title": "나이키 조던1 싸게 팝니다.",
+      "price": "30,000",
+      "heart": 111,
+      "createDate": "2024-07-09",
+      "user": "중고거래왕",
+      "location": "대전광역시 대덕구",
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjhfMTM0%2FMDAxNjk1ODU0MTM5NTM0.55DtrQAFXTIFphRATa3H-wzyVoFIF7AZk3UEGKoBTsUg.qBntC1QG9Z83LaqQ5IQDV2-yGcjCYIMfahfcb46sc9Ig.PNG.wlgnszz16%2Fimage.png&type=sc960_832"
+    },
+    {
+      "id": 27,
+      "title": "손이 잘 안가 싸게 팝니다.",
+      "price": "12,000",
+      "heart": 8,
+      "createDate": "2024-06-12",
+      "user": "하이요",
+      "location": "대구광역시 달서구",
+      "img": "https://image.msscdn.net/data/estimate/1420730_0/gallery_630ba223405d0.jpg.view"
+    },
+    {
+      "id": 28,
+      "title": "수원 사시는 분들 싸게 팔아요",
+      "price": "25,000",
+      "heart": 9,
+      "createDate": "2024-04-28",
+      "user": "거래해요",
+      "location": "경기도 수원시",
+      "img": "https://image.msscdn.net/data/estimate/1420730_0/gallery_5f2e8479a252f.jpg.view"
+    },
+    {
+      "id": 29,
+      "title": "반팔 급처합니다.",
+      "price": "59,000",
+      "heart": 1,
+      "createDate": "2024-02-19",
+      "user": "네고가능인",
+      "location": "경기도 이천시",
+      "img": "https://image.msscdn.net/data/estimate/1779737_0/gallery_65e6e409bdd0e.jpg.view"
+    },
+    {
+      "id": 30,
+      "title": "코트가 저한테 너무 길어 팝니다.",
+      "price": "129,000",
+      "heart": 13,
+      "createDate": "2024-08-09",
+      "user": "비싼거만팔음",
+      "location": "강원도 원주시",
+      "img": "https://image.msscdn.net/data/estimate/1115974_0/gallery_5f45e2dd494e7.jpg.view"
+    }
+  ]
+}
