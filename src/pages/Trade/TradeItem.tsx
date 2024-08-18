@@ -2,6 +2,7 @@ import React from "react";
 import { useAllTradeItem } from "./tradeService";
 import { FaHeart } from "react-icons/fa";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import Loading from "../../components/Loading/main";
 
 interface TradeItem {
   id: number;
@@ -28,7 +29,11 @@ const TradeItem: React.FC = () => {
   };
 
   if (isLoading) {
-    return <div>로딩중...</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
 
   if (isError) {

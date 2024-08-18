@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useTradeDetailItem } from "./tradeDetailService";
 import { useParams } from "react-router-dom";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
+import MoreTradeItem from "../../components/MoreTradeItem/main";
+import Loading from "../../components/Loading/main";
+import Error from "../../components/Error/main";
 
 interface DetailItem {
   createDate: string;
@@ -27,11 +30,19 @@ const TradeDetail: React.FC = () => {
   const tradeItem: DetailItem = detailItem;
 
   if (isLoading) {
-    return <div>로딩 중...</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
 
   if (isError) {
-    return <div>{error.message}</div>;
+    return (
+      <div>
+        <Error error={error.message} />
+      </div>
+    );
   }
 
   const isHeart = () => {
@@ -97,6 +108,7 @@ const TradeDetail: React.FC = () => {
             </div>
           </div>
         </div>
+        <MoreTradeItem id={tradeItem.id} />
       </div>
     </div>
   );

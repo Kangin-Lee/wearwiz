@@ -23,7 +23,7 @@ const Trade: React.FC = () => {
   };
 
   const filterArea = () => {
-    console.log(selectedArea, selectedSubArea);
+    console.log(selectedArea + selectedSubArea);
   };
 
   return (
