@@ -3,10 +3,10 @@ import WizFindTab from "../../../components/WizFindTab/main";
 import { Fade } from "react-awesome-reveal";
 
 const backgrounds = [
-  "/src/assets/home/section1-2.jpg",
-  "/src/assets/home/section1.jpg",
-  "/src/assets/home/section1-3.jpg",
-  "/src/assets/home/section1-4.jpg",
+  "/images/home/section1-2.jpg",
+  "/images/home/section1.jpg",
+  "/images/home/section1-3.jpg",
+  "/images/home/section1-4.jpg",
 ];
 
 const getRandomBackground = () => {

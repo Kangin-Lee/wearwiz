@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
 const loadingImages = [
-  "/src/assets/loading/loading1.gif",
-  "/src/assets/loading/loading2.gif",
-  "/src/assets/loading/loading3.gif",
-  "/src/assets/loading/loading4.gif",
+  "/images/loading/loading1.gif",
+  "/images/loading/loading2.gif",
+  "/images/loading/loading3.gif",
+  "/images/loading/loading4.gif",
 ];
 
 const loadingText = [

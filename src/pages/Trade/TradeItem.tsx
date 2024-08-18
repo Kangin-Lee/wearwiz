@@ -3,6 +3,7 @@ import { useAllTradeItem } from "./tradeService";
 import { FaHeart } from "react-icons/fa";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import Loading from "../../components/Loading/main";
+import Error from "../../components/Error/main";
 
 interface TradeItem {
   id: number;
@@ -37,7 +38,11 @@ const TradeItem: React.FC = () => {
   }
 
   if (isError) {
-    return <div>{error.message}</div>;
+    return (
+      <div>
+        <Error error={error.message} />
+      </div>
+    );
   }
 
   return (
