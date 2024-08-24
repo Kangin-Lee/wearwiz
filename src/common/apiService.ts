@@ -5,5 +5,5 @@ const BASE_URL = 'https://my-json-server.typicode.com/Kangin-Lee/wearwiz'
 
 export const apiService = axios.create({
   baseURL: BASE_URL,
-  maxContentLength: Infinity, // 또는 원하는 크기로 설정
+  maxContentLength: 2000000, // 2MB로 설정
 });
