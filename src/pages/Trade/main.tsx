@@ -22,10 +22,6 @@ const Trade: React.FC = () => {
     setSelectedSubArea(e.target.value);
   };
 
-  const filterArea = () => {
-    console.log(selectedArea + selectedSubArea);
-  };
-
   return (
     <div className="font-kr">
       <div className="container">
@@ -64,12 +60,6 @@ const Trade: React.FC = () => {
                     </option>
                   ))}
                 </select>
-                <button
-                  className="bg-app-blue text-white ml-3 py-2 px-4 rounded-md hover:bg-blue-600 hover:duration-200 duration-200"
-                  onClick={filterArea}
-                >
-                  조건 검색
-                </button>
               </div>
             )}
           </div>
@@ -81,7 +71,10 @@ const Trade: React.FC = () => {
         <hr />
 
         {/* 중고 의류 리스트---------------------------------------------------------------- */}
-        <TradeItem />
+        <TradeItem
+          selectedArea={selectedArea}
+          selectedSubArea={selectedSubArea}
+        />
       </div>
     </div>
   );
