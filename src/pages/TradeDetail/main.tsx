@@ -25,9 +25,15 @@ const TradeDetail: React.FC = () => {
     isLoading,
     isError,
     error,
+    refetch,
   } = useTradeDetailItem(id!);
 
   const tradeItem: DetailItem = detailItem;
+
+  useEffect(() => {
+    // id가 변경될 때마다 refetch 호출
+    refetch();
+  }, [id, refetch]);
 
   if (isLoading) {
     return (

@@ -51,7 +51,7 @@ const MoreTradeItem: React.FC<IdProps> = ({ id }) => {
   const randomItems = data && data.length >= 10 ? getRandomItems(data, 10) : [];
 
   const goToTradeItem = (id: number) => {
-    // navigate(`/trade/${id}`);
+    navigate(`/trade/${id}`);
   };
 
   return (

@@ -6,6 +6,7 @@ import SignUp from "./pages/SignUp/main";
 import Trade from "./pages/Trade/main";
 import Nav from "./components/Nav/main";
 import TradeDetail from "./pages/TradeDetail/main";
+import TradeRegister from "./pages/Trade/TradeRegister/main";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/trade" element={<Trade />} />
         <Route path="/trade/:id" element={<TradeDetail />} />
+        <Route path="/trade/register" element={<TradeRegister />} />
       </Routes>
       <Footer />
     </>

@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import { area } from "../../common/areaSelect";
 import TradeItem from "./TradeItem";
 import { Fade } from "react-awesome-reveal";
+import { useNavigate } from "react-router-dom";
 
 const Trade: React.FC = () => {
   // 상태 관리
   const [selectedArea, setSelectedArea] = useState<string>("");
   const [selectedSubArea, setSelectedSubArea] = useState<string>("");
+  const navigate = useNavigate();
 
   // 선택된 지역에 따라 하위 지역 목록을 가져옴
   const subAreas =
@@ -20,6 +22,10 @@ const Trade: React.FC = () => {
 
   const handleSubAreaChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedSubArea(e.target.value);
+  };
+
+  const goToItemCell = () => {
+    navigate("/trade/register");
   };
 
   return (
@@ -64,7 +70,10 @@ const Trade: React.FC = () => {
             )}
           </div>
           {/* ------------------------------------------------------------------------------ */}
-          <button className="flex items-center font-bold bg-app-blue text-white px-4 py-2 rounded-md">
+          <button
+            className="flex items-center font-bold bg-app-blue text-white px-4 py-2 rounded-md"
+            onClick={goToItemCell}
+          >
             판매하기
           </button>
         </div>
