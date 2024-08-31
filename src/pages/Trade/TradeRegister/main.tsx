@@ -1,5 +1,6 @@
 import React from "react";
 import { TbCameraPlus } from "react-icons/tb";
+import AreaSelect from "../../../components/AreaSelect/main";
 
 const TradeRegister: React.FC = () => {
   return (
@@ -65,9 +66,113 @@ const TradeRegister: React.FC = () => {
             />
           </div>
 
-          <p>상품상태 (중고/새상품)</p>
-          <p>거래 방법</p>
-          <p>지역</p>
+          {/*상품상태 구역---------------------------- */}
+          <div className="flex flex-col">
+            <label htmlFor="itemInfo" className="font-bold mb-1">
+              상품 상태
+            </label>
+            <div className="mb-7">
+              <ul className="flex flex-col sm:flex-row">
+                <li className="inline-flex items-center gap-x-2.5 py-3 px-4 text-sm font-medium bg-white border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg sm:-ms-px sm:mt-0 sm:first:rounded-se-none sm:first:rounded-es-lg sm:last:rounded-es-none sm:last:rounded-se-lg dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
+                  <div className="relative flex items-start w-full">
+                    <div className="flex items-center h-5">
+                      <input
+                        id="brand-new"
+                        name="hs-horizontal-list-group-item-radio"
+                        type="radio"
+                        className="border-gray-200 rounded-full disabled:opacity-50 dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
+                        checked
+                      />
+                    </div>
+                    <label
+                      htmlFor="brand-new"
+                      className="ms-3 block w-full text-sm text-gray-600 dark:text-neutral-500"
+                    >
+                      새상품
+                    </label>
+                  </div>
+                </li>
+
+                <li className="inline-flex items-center gap-x-2.5 py-3 px-4 text-sm font-medium bg-white border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg sm:-ms-px sm:mt-0 sm:first:rounded-se-none sm:first:rounded-es-lg sm:last:rounded-es-none sm:last:rounded-se-lg dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
+                  <div className="relative flex items-start w-full">
+                    <div className="flex items-center h-5">
+                      <input
+                        id="old-item"
+                        name="hs-horizontal-list-group-item-radio"
+                        type="radio"
+                        className="border-gray-200 rounded-full disabled:opacity-50 dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
+                      />
+                    </div>
+                    <label
+                      htmlFor="old-item"
+                      className="ms-3 block w-full text-sm text-gray-600 dark:text-neutral-500"
+                    >
+                      중고
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/*거래방법 구역---------------------------- */}
+          <div className="flex flex-col">
+            <label htmlFor="itemInfo" className="font-bold mb-1">
+              거래 방법
+            </label>
+            <div className="mb-7">
+              <ul className="flex flex-col sm:flex-row">
+                <li className="inline-flex items-center gap-x-2.5 py-3 px-4 text-sm font-medium bg-white border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg sm:-ms-px sm:mt-0 sm:first:rounded-se-none sm:first:rounded-es-lg sm:last:rounded-es-none sm:last:rounded-se-lg dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
+                  <div className="relative flex items-start w-full">
+                    <div className="flex items-center h-5">
+                      <input
+                        id="parcel-service"
+                        name="hs-horizontal-list-group-item-radio2"
+                        type="radio"
+                        className="border-gray-200 rounded-full disabled:opacity-50 dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
+                        checked
+                      />
+                    </div>
+                    <label
+                      htmlFor="parcel-service"
+                      className="ms-3 block w-full text-sm text-gray-600 dark:text-neutral-500"
+                    >
+                      택배
+                    </label>
+                  </div>
+                </li>
+
+                <li className="inline-flex items-center gap-x-2.5 py-3 px-4 text-sm font-medium bg-white border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg sm:-ms-px sm:mt-0 sm:first:rounded-se-none sm:first:rounded-es-lg sm:last:rounded-es-none sm:last:rounded-se-lg dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
+                  <div className="relative flex items-start w-full">
+                    <div className="flex items-center h-5">
+                      <input
+                        id="direct-transaction"
+                        name="hs-horizontal-list-group-item-radio2"
+                        type="radio"
+                        className="border-gray-200 rounded-full disabled:opacity-50 dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
+                      />
+                    </div>
+                    <label
+                      htmlFor="direct-transaction"
+                      className="ms-3 block w-full text-sm text-gray-600 dark:text-neutral-500"
+                    >
+                      직거래
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/*지역 구역---------------------------- */}
+          <div className="flex flex-col">
+            <label htmlFor="area" className="font-bold mb-1">
+              지역
+            </label>
+            <div>
+              <AreaSelect />
+            </div>
+          </div>
         </div>
       </div>
     </div>

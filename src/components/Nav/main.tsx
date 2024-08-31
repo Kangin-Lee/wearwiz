@@ -36,7 +36,13 @@ const Nav: React.FC = () => {
             >
               홈
             </NavLink>
-            <li className="px-2 py-1 hover:text-main cursor-pointer">위즈</li>
+            <NavLink
+              to="/wiz"
+              style={({ isActive }) => (isActive ? activeStyle : {})}
+              className="px-2 py-1 hover:text-main cursor-pointer"
+            >
+              위즈
+            </NavLink>
             <NavLink
               to="/trade"
               style={({ isActive }) => (isActive ? activeStyle : {})}

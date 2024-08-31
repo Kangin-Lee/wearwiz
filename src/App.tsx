@@ -7,6 +7,7 @@ import Trade from "./pages/Trade/main";
 import Nav from "./components/Nav/main";
 import TradeDetail from "./pages/TradeDetail/main";
 import TradeRegister from "./pages/Trade/TradeRegister/main";
+import Wiz from "./pages/Wiz/main";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/trade" element={<Trade />} />
         <Route path="/trade/:id" element={<TradeDetail />} />
         <Route path="/trade/register" element={<TradeRegister />} />
+        <Route path="/wiz" element={<Wiz />} />
       </Routes>
       <Footer />
     </>
