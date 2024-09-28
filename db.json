@@ -300,5 +300,21 @@
       "location": "강원도 원주시",
       "img": "https://image.msscdn.net/data/estimate/1115974_0/gallery_5f45e2dd494e7.jpg.view"
     }
+  ],
+  "wiz": [
+    {
+      "id": 1,
+      "category": ["캐주얼", "스트릿", "미니멀"],
+      "area": "대전광역시 유성구",
+      "counsel": 1,
+      "face": 1,
+      "rate": 9.8,
+      "nickName": "이게닉네임",
+      "introduce": "안녕하세요! 캐주얼과 스트릿, 미니멀 코디를 좋아하는 이게닉네임입니다!",
+      "portfolio": {
+        "img": [],
+        "license": "옷잘알자격증"
+      }
+    }
   ]
 }

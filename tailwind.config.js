@@ -30,6 +30,7 @@ export default {
       backgroundImage: {
         home5: 'url("/src/assets/home/section5.jpg")',
         login: 'url("/src/assets/sign/login.jpg")',
+        colorMatch: 'url("/src/assets/colormatch/colormatch.jpg")',
       },
       height: {
         "screen-80": "60vh",

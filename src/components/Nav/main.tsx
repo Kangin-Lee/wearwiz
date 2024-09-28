@@ -44,6 +44,13 @@ const Nav: React.FC = () => {
               위즈
             </NavLink>
             <NavLink
+              to="/colormatch"
+              style={({ isActive }) => (isActive ? activeStyle : {})}
+              className="px-2 py-1 hover:text-main cursor-pointer"
+            >
+              컬러매치
+            </NavLink>
+            <NavLink
               to="/trade"
               style={({ isActive }) => (isActive ? activeStyle : {})}
               className="px-2 py-1 hover:text-main cursor-pointer"

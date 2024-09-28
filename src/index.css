@@ -49,6 +49,14 @@
     }
 }
 
+.colormatch-video{
+    padding-right: 20px;
+    iframe{
+        border-radius: 8px;
+    }
+    }
+    
+
 /* number 타입 화살표 없애기 */
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
