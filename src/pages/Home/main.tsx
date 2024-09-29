@@ -1,10 +1,10 @@
 import React from "react";
-import SectionOne from "./SectionOne/main";
-import SectionTwo from "./SectionTwo/main";
-import SectionThree from "./SectionThree/main";
-import SectionFour from "./SectionFour/main";
-import SectionFive from "./SectionFive/main";
-import SectionSix from "./SectionSix/main";
+import SectionOne from "./SectionOne";
+import SectionTwo from "./SectionTwo";
+import SectionThree from "./SectionThree";
+import SectionFour from "./SectionFour";
+import SectionFive from "./SectionFive";
+import SectionSix from "./SectionSix";
 
 const Home: React.FC = () => {
   return (

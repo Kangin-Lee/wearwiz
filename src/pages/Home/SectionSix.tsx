@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TradeCard from "../../../components/TradeCard/main";
+import TradeCard from "../../components/TradeCard/main";
 import { IoBagHandle } from "react-icons/io5";
 const SectionSix: React.FC = () => {
   return (

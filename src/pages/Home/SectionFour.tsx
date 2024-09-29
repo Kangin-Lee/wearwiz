@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import WizCard from "../../../components/WizCard/main";
+import WizCard from "../../components/WizCard/main";
 import { Link } from "react-router-dom";
 import { BsFire } from "react-icons/bs";
 

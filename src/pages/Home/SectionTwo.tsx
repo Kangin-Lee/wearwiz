@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { useNavigate } from "react-router-dom";
-import gift from '../../../assets/home/section2.png'
+import gift from "../../assets/home/section2.png";
 
 const SectionTwo: React.FC = () => {
   const navigate = useNavigate();

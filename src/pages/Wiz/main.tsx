@@ -1,5 +1,5 @@
 import React from "react";
-import SectionThree from "../Home/SectionThree/main";
+import SectionThree from "../Home/SectionThree";
 
 const Wiz: React.FC = () => {
   return (

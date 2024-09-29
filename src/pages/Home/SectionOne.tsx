@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import WizFindTab from "../../../components/WizFindTab/main";
+import WizFindTab from "../../components/WizFindTab/main";
 import { Fade } from "react-awesome-reveal";
 
 const backgrounds = [

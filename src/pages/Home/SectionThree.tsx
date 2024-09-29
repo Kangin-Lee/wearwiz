@@ -1,14 +1,14 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import 캐주얼 from "../../../assets/style/캐주얼.jpg";
-import 미니멀 from "../../../assets/style/미니멀.webp";
-import 스트릿 from "../../../assets/style/스트릿.webp";
-import 비즈니스캐주얼 from "../../../assets/style/비즈니스캐주얼.webp";
-import 시티보이 from "../../../assets/style/시티보이.webp";
-import 긱시크 from "../../../assets/style/긱시크.webp";
-import 고프코어 from "../../../assets/style/고프코어.webp";
-import 프레피 from "../../../assets/style/프레피.webp";
+import 캐주얼 from "../../assets/style/캐주얼.jpg";
+import 미니멀 from "../../assets/style/미니멀.webp";
+import 스트릿 from "../../assets/style/스트릿.webp";
+import 비즈니스캐주얼 from "../../assets/style/비즈니스캐주얼.webp";
+import 시티보이 from "../../assets/style/시티보이.webp";
+import 긱시크 from "../../assets/style/긱시크.webp";
+import 고프코어 from "../../assets/style/고프코어.webp";
+import 프레피 from "../../assets/style/프레피.webp";
 import { BsFillHandThumbsUpFill } from "react-icons/bs";
 
 const responsive = {
