@@ -1,0 +1,26 @@
+export const colors = {
+  text: [
+    "BLACK",
+    "WHITE",
+    "GRAY",
+    "NAVY",
+    "KHAKI",
+    "BEIGE",
+    "BROWN",
+    "BLUE",
+    "GREEN",
+    "BURGUNDY",
+  ],
+  code: [
+    "#000000",
+    "#fefefe",
+    "#808080",
+    "#243b5b",
+    "#6c690a",
+    "#f1cd97",
+    "#483420",
+    "#274eb6",
+    "#228a22",
+    "#5e0a0a",
+  ],
+};

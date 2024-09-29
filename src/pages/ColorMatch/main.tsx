@@ -19,7 +19,7 @@ const ColorMatch: React.FC = () => {
           </Fade>
         </div>
       </div>
-      <div className="container h-256">
+      <div className="container">
         <ColorMatchVideo />
         <ColorPalette />
       </div>
