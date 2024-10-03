@@ -57,9 +57,12 @@ const Nav: React.FC = () => {
             >
               중고거래
             </NavLink>
-            <li className="px-2 py-1 hover:text-main cursor-pointer">
+            <NavLink
+              to="/community"
+              className="px-2 py-1 hover:text-main cursor-pointer"
+            >
               커뮤니티
-            </li>
+            </NavLink>
             <li className="px-2 py-1 hover:text-main cursor-pointer">OOTD</li>
             <li className="px-2 py-1 hover:text-main cursor-pointer">찜</li>
           </ul>
