@@ -59,6 +59,7 @@ const Nav: React.FC = () => {
             </NavLink>
             <NavLink
               to="/community"
+              style={({ isActive }) => (isActive ? activeStyle : {})}
               className="px-2 py-1 hover:text-main cursor-pointer"
             >
               커뮤니티

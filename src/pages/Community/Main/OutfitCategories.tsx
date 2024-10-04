@@ -47,7 +47,7 @@ const OutfitCategories: React.FC = () => {
         {/* 이번주 인기글 네비게이션 부분 */}
         <div className="flex justify-between">
           <p className="text-xl font-bold mb-2">{selectOutfitCategory}</p>
-          <p className="text-zinc-500 flex items-center text-sm">
+          <p className="text-zinc-500 flex items-center text-sm hover:underline cursor-pointer">
             더보기 <IoIosArrowForward />
           </p>
         </div>

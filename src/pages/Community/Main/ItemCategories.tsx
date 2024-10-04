@@ -22,7 +22,7 @@ const ItemCategories: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="mb-10">
       <p className="text-xl font-bold text-zinc-800 mb-4 mt-8">
         아이템별 커뮤니티
       </p>
@@ -47,7 +47,7 @@ const ItemCategories: React.FC = () => {
         {/* 아이템별 네비게이션 부분 */}
         <div className="flex justify-between">
           <p className="text-xl font-bold mb-2">{selectItemCategory}</p>
-          <p className="text-zinc-500 flex items-center text-sm">
+          <p className="text-zinc-500 flex items-center text-sm hover:underline cursor-pointer">
             더보기 <IoIosArrowForward />
           </p>
         </div>

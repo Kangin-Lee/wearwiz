@@ -5,10 +5,12 @@ import { IoIosArrowForward } from "react-icons/io";
 import WeeklyHotPostsPreview from "./WeeklyHotPostsPreview";
 import OutfitCategories from "./OutfitCategories";
 import ItemCategories from "./ItemCategories";
+import Announcement from "./Announcement";
 
 const Main: React.FC = () => {
   return (
     <div>
+      <Announcement />
       <p className="flex items-center text-xl font-bold text-zinc-800 mb-3">
         실시간 전체 글 56,445개 <IoIosArrowForward />
       </p>
