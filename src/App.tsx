@@ -10,6 +10,8 @@ import TradeRegister from "./pages/Trade/TradeRegister/main";
 import Wiz from "./pages/Wiz/main";
 import ColorMatch from "./pages/ColorMatch/main";
 import Community from "./pages/Community/main";
+import OutfitCommunity from "./pages/Community/OutfitCommunity/main";
+import CreatePost from "./pages/Community/CreatePost/main";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
         <Route path="/trade/register" element={<TradeRegister />} />
         <Route path="/wiz" element={<Wiz />} />
         <Route path="/colormatch" element={<ColorMatch />} />
-        <Route path="community" element={<Community />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/community/outfit" element={<OutfitCommunity />} />
+        <Route path="/community/create" element={<CreatePost />} />
       </Routes>
       <Footer />
     </>

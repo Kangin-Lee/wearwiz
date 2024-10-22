@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { BiMessageSquareDots } from "react-icons/bi";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 const OutfitCategories: React.FC = () => {
   const outfit = [1, 2, 3, 4, 5];
@@ -16,9 +17,15 @@ const OutfitCategories: React.FC = () => {
   ];
 
   const [selectOutfitCategory, setSelectOutfitCategory] = useState(category[0]);
+  const navigate = useNavigate();
 
   const selectCategory = (category: string) => {
     setSelectOutfitCategory(category);
+  };
+
+  // 코디별 커뮤니티 들어가는 곳
+  const goToOutfitCommunity = (category: string) => {
+    navigate(`/community/outfit?outfit=${category}`);
   };
 
   return (
@@ -47,7 +54,10 @@ const OutfitCategories: React.FC = () => {
         {/* 이번주 인기글 네비게이션 부분 */}
         <div className="flex justify-between">
           <p className="text-xl font-bold mb-2">{selectOutfitCategory}</p>
-          <p className="text-zinc-500 flex items-center text-sm hover:underline cursor-pointer">
+          <p
+            onClick={() => goToOutfitCommunity(selectOutfitCategory)}
+            className="text-zinc-500 flex items-center text-sm hover:underline cursor-pointer"
+          >
             더보기 <IoIosArrowForward />
           </p>
         </div>
